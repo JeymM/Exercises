@@ -1,0 +1,35 @@
+Ejercicio 1:
+Si dentro del método
+encuentra que la cantidad de boletas no está dentro de los rangos establecidos, ¿debería
+lanzar una excepción o retornar cero? Explique brevemente su respuesta.
+RTA// Considero que deberá arrojar una excepción,pues viendolo en un caso real (comprar boletas
+en un cine) dicho sitio maneja un stack de boletas (o pues eso supongo) donde tu llegas a comprar
+mas boletas de las que quiza queden disponibles el personal te dira que no tiene mas boletas a la 
+venta. Entonces mediante una excepcion el programa me dira que no hay mas boletas de las que 
+esta predeterminada avisandome que no puedo adquirirlas.
+
+
+Ejercicio2:
+
+Si el estudiante no tiene materias inscritas, ¿debería
+lanzar una excepción o retornar null? Explique brevemente su respuesta.
+
+RTA//
+
+Considero que el resultado debera lanzar null, pues viendolo en el mundo real si tu realizas 
+una consulta y en el momento no tienes materias inscritas y/o no estas inscrito como estudiante
+te debera arrojar nulo (como representación de que no tienes registros de materias).
+
+Ejercicio 3:
+
+Considerando que en su momento el unico formato que tiene más atributos es mp4, opté por manejar
+clases abstractas donde hubiese una clase video para ser heredad por mp4 y otra clase audio
+que se herede por los otros formatos, pues creo que al implementar una interfaz me pueda complicar
+un poco en el momento de querer añadir otro formato.
+
+Ejercicio 4:
+Finalmente para este caso implemente una interfaz para los movimientos que realiza ambas cuentas
+pues si bien tanto en cuenta de ahorros como en corriente puedes depositar y retirar, lo mejor 
+en mi criterio es el uso de interfaz(siendo movimientos globales) aunque para los datos de las cuentas se hereda de una clas
+contiene dichos atributos. 
+
